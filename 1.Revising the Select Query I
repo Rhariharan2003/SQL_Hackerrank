@@ -1,4 +1,14 @@
+/*
+  Problem Link -> https://www.hackerrank.com/challenges/revising-the-select-query/problem?isFullScreen=true
+*/
+
 select *
 from city
 where population > 100000
 and countrycode = 'usa'
+
+
+select name 
+from city
+where population > 120000
+and CountryCode = 'USA';
